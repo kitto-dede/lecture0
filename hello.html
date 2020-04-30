@@ -1,10 +1,45 @@
-<!<!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en" dir="ltr">
   <head>
     <meta charset="utf-8">
-    <title></title>
+    <title>My webpage</title>
+<meta name="viweport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css" integrity="sha256-h20CPZ0QyXlBuAw7A+KluUYx/3pK+c7lYEpqLTlxjYQ=" crossorigin="anonymous" />
+    <style>
+    html, body{
+      background: #222222;
+      color: #FFFFFF;
+      font-family: sans-serif;
+      margin: 0 auto;
+      font-size: 16px;
+      min-height: 2000px;
+    }
+    h1 {
+      font-size: 65pt;
+      line-height: 1em;
+      position: relative;
+      top: 10vm;
+    }
+    p {
+      margin: 0; padding: 10px 0;
+    }
+	header {
+	font-size: 45px;
+    top: 1000px;
+    position: relative;
+	}
+
+    </style>
   </head>
   <body>
-    Hello, world! Hello again. Hello! hello! hello!
+    <div style="text-align: center">
+      <h1 class="play rellax" data-rellax-speed="-10" data-rellax-xs-speed="5" >Hello, World!</h1>
+		<header data-rellax-speed="10" data-rellax-xs-speed="5" >Hello again.</header>
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/rellax/1.12.1/rellax.min.js" integrity="sha256-+xf9aJnHocnmrigq2hIDJGBSAnJdF5NH+Ooe5J2PHiI=" crossorigin="anonymous"></script>
+    <script type="text/javascript">
+    	//init rellax
+    	 let rellax = new Rellax('.rellax');
+    </script>
   </body>
 </html>
